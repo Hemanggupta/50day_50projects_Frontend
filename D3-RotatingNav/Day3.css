@@ -21,7 +21,7 @@ body {
     padding: 50px;
 }
 
-.container.show-nav {
+.container.active {
     transform: rotate(-20deg);
 }
 
@@ -40,7 +40,7 @@ body {
     transition: transform 0.5s linear;
 }
 
-.container.show-nav .circle {
+.container.active .circle {
     transform: rotate(-80deg);
 }
 
@@ -70,7 +70,7 @@ body {
     transform-origin: top left;
 }
 
-.container.show-nav + nav li {
+.container.active+nav li {
     transform: translateX(0);
     transition-delay: 0.3s;
 }
