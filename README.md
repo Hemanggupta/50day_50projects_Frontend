@@ -1,2 +1,2 @@
-# 50day_50projects_Frontend
+50projects_Frontend
 Mini projects for better understanding of HTML/CSS/JS
